@@ -1,0 +1,16 @@
+$dark-color: #333;
+$light-color: #f4f4f4;
+// $main-color: #DF674D;
+$main-color: #EB7847;
+$secondary-color: #EF936C;
+$medium-color: #ccc;
+$website-width: 100vw;
+
+// Set text color
+@function set-text-color($color) {
+    @if(lightness($color) > 50) {
+        @return #000;
+    } @else {
+        @return #fff;
+    }
+}
