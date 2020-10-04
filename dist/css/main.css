@@ -144,7 +144,7 @@ img {
     transition: border-color 0.5s; }
     #main-nav a:hover {
       border-color: #ccc; }
-    #main-nav a.current {
+    #main-nav a:focus {
       border-color: #EB7847; }
 
 #home {
@@ -181,8 +181,8 @@ img {
     padding: 1rem 3rem; }
     #about .about-info .bio-image {
       grid-area: 'image';
-      width: 200px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
       margin-right: 4rem;
       border-radius: 50%;
       border: 2px solid #f4f4f4; }
